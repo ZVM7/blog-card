@@ -1,0 +1,84 @@
+body {
+    background-color:hsl(47, 88%, 63%) ;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+.main {
+    padding: 15px;
+    margin: 3% auto;
+    width: 28%;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 11px 11px  black;
+    text-align: left;
+}
+
+.main img {
+    width: 95%;
+    display: block;
+    padding:5px ;    
+    margin-left: auto;    
+    margin-right: auto; 
+    border-radius: 20px;  
+  }
+
+.main h2 {
+    padding: 7px;
+    margin-left: 10px;
+    text-align: center;
+    background-color: hsl(47, 88%, 63%);
+    color: black;
+    width: 20%;
+    font-family: "Figtree", sans-serif;
+    font-weight: 800;
+    font-size: 17px;
+}
+.main  h3 {
+    margin-left:10px;
+    font-family: "Figtree", sans-serif;
+    font-weight: 500;
+
+}
+.main h1 {
+    color:black;
+    font-family: "Figtree", sans-serif;
+    margin-left:10px;
+    font-weight: 800;
+}
+
+.main h1:hover{
+    color:hsl(47, 88%, 63%);
+    font-weight: 800;
+    font-family: "Figtree", sans-serif;
+    cursor: pointer;
+}
+
+.main p {
+    color:hsl(0, 1%, 54%);
+    font-family: "Figtree", sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    margin-left: 10px;
+}
+
+.profile img,
+.profile p {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.profile img {
+    width: 10%;
+}
+.profile {
+    margin-left: 5px;
+}
+.profile p {
+    font-family: "Figtree", sans-serif;
+    font-weight: 900;
+    color: black;
+}
